@@ -10,7 +10,7 @@ multiple commands together into powerful command pipelines. To show off this fac
 we will introduce the following commands:
 
 这堂课，我们来介绍可能是命令行最酷的特性。它叫做 I/O 重定向。"I/O"代表输入/输出，
-通过这个工具，你可以将命令的输入来源以及输出地点重定向为文件。也可以把多个命令连接起来组成一个强大的命令管道。为了展示这个工具，我们将叙述
+通过这个工具，你可以将命令的输入来源以及输出地点重定向为文件。也可以把多个命令连接起来组成一个强大的命令管道。为了展示这个工具，我们将介绍
 以下命令：
 
 
@@ -34,11 +34,11 @@ we will introduce the following commands:
 
 * sort － 排序文本行
 
-* uniq － 报道或省略重复行
+* uniq － 报告或省略重复行
 
 * grep － 打印匹配行
 
-* wc － 打印文件中换行符，字，和字节个数
+* wc － 打印每个文件中换行符，字，和字节个数
 
 * head － 输出文件第一部分
 
@@ -53,9 +53,9 @@ program is designed to produce, and second, we have status and error messages th
 us how the program is getting along. If we look at a command like ls, we can see that it
 displays its results and its error messages on the screen.
 
-到目前为止，我们用到的许多程序都会产生某种输出。这种输出，经常由两种类型组成。
-第一，程序运行结果；这是说，程序要完成的功能。第二，我们得到状态和错误信息，
-这些告诉我们程序进展。如果我们观察一个命令，例如 ls，会看到它的运行结果和错误信息
+到目前为止，我们用到的许多程序都会产生某种输出。这种输出通常由两种类型组成。
+第一种，我们有了程序的结果；或者说，程序原本输出的数据。第二种，我们得到了状态和错误信息，
+这些告诉了我们程序进展。如果我们观察一个命令，例如 ls，会看到它的运行结果和错误信息
 显示在屏幕上。
 
 Keeping with the Unix theme of “everything is a file,” programs such as ls actually send
